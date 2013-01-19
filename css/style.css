@@ -1,0 +1,15 @@
+body{
+	margin:0px;
+	background: white;
+}
+
+.header{
+	height: 50px;
+	background: black;
+}
+
+.content{
+	background: -webkit-linear-gradient(#872828 0%, #ffffff 100%);
+	border: 1px solid black;
+	height: 2000px;
+}

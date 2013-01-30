@@ -1,0 +1,194 @@
+/* Google Font */
+@import url(http://fonts.googleapis.com/css?family=PT+Serif|PT+Sans+Narrow:700|PT+Sans);
+
+
+/* RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after { content:""; }
+.cf:after { clear:both; }
+.cf { zoom:1;}
+
+/* Base Style */
+body {
+    font:14px/1.6 'PT Serif', serif;
+    font-weight: 400;
+    color:#222;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{font-family: 'PT Sans Narrow', sans-serif;font-weight:bold;text-transform: uppercase; margin: 5% 0 70px}
+h2{font-family: 'PT Sans Narrow', sans-serif; margin: 22% 0 55px; font-size: 60px;}
+h3{font-family: 'Cantata One', serif; font-size: 32px; margin-bottom: 20px;}
+
+h4{
+	font-family: 'Domine', serif;
+	font-weight: normal;
+	font-size:15px; margin:1em 0.5em 0;
+	margin-bottom: 5px;}
+
+
+
+	
+h5{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	text-align: right;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+h6{font-family: 'PT Sans Narrow', sans-serif; font-size: 32px; margin-bottom: 2px;}
+
+p{min-height:1px;}
+strong{font-weight:bold;}
+  hr{background: black;border: 0;height:1px;margin: 20px 0 20px 0 auto 8px;width: 650px;}
+
+
+a:hover{color:grey;}
+
+.align-center{text-align: center;}
+
+.curtains > li {
+    border-bottom: 25px solid #b1abab;
+}
+
+  .block{
+	  text-align: center;
+  }
+  
+    
+  .intros{
+	clear: both;
+    margin: auto;
+    overflow: auto;
+    text-align: left, justify;
+    width: 650px;
+    font-family: 'Junge', serif;
+    margin-bottom: 80px;
+  }
+  
+  .reporter{
+     clear: both;
+     margin: 0 auto;
+     overflow: auto;
+     width: 650px;
+     font-family: 'Junge', serif;
+     font-size: 11.75px;
+  }
+        
+  .reporter img{
+  	margin: 0px 15px 15px 0px;
+  	border: 5px solid grey;
+  	float: left;
+  	width: 200px;
+  	height: 150px;
+  }
+  
+  .reporter p{
+	  width: 420px;
+	  float: right;
+	  margin-top: 0 0 -5px 0;
+  }
+  
+/* curtain 1 */
+
+#curtain-1{
+    background:url(img/eighteen-cover.jpg) 50% 0 no-repeat;
+    background-size:cover;
+}
+
+     header{
+        color:#FFF;
+        position:relative;
+        top:30%;
+        left:50%;
+        margin:0 0 0 -350px;
+        width:700px;
+        text-align:left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+        line-height:1.1;
+    }
+    h1{
+        text-transform:capitalize;
+        font-size:100px;
+    }
+
+.story-byline {
+	border-top: 1px solid #ccc;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: .91667em;
+	letter-spacing: 1px;
+	line-height: 1.8em;
+	margin-top: .5em;
+	text-align: right;
+	text-transform: uppercase;
+	width: 100%;
+	height:20px;
+	}
+	
+.image-caption{
+	font-size:.91667em;
+	line-height:1.5em;
+	margin:0.1em 5px .5em;
+	text-align:left;
+}
+
+#news-brief{
+	background-color: #eeeeee;
+	color: black;
+}
+
+ #news-brief hr{
+	 background: #bfbfbf;border: 0;height: 1px;margin: 20px 0 20px 0 auto 8px;width: 100%;	 
+ }
+ 
+ #news-brief hrr{
+	 background: black;border: 0;height: 1px;margin: 20px 0 20px 0 auto 8px;width: 100%;	 
+ }
+
+#team-bgp-info{
+	background:url(img/farmer.png);
+}
+
+
+#team-pda-info{
+	background:url(img/gray_jean.png);
+}
+
+#team-tnl-info{
+	background:url(img/bedge_grunge.png);
+}
+
+
+  
+
+
+

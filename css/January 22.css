@@ -1,0 +1,205 @@
+/* Google Font */
+@import url(http://fonts.googleapis.com/css?family=PT+Serif|PT+Sans+Narrow:700|PT+Sans);
+
+
+/* RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover{color:grey;}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after { content:""; }
+.cf:after { clear:both; }
+.cf { zoom:1;}
+
+/* Base Style */
+body {
+    font:14px/1.6 'PT Serif', serif;
+    font-weight: 400;
+    color:#222;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{font-family: 'PT Sans Narrow', sans-serif;font-weight:bold;text-transform: uppercase; margin: 5% 0 70px}
+h2{font-family: 'PT Sans Narrow', sans-serif; margin: 22% 0 55px; font-size: 60px;}
+h3{font-family: 'Cantata One', serif; font-size: 32px; margin-bottom: 20px;}
+
+
+h4,h5,h6{font-family: 'PT Sans', sans-serif;font-weight:bold;}
+h4{ font-size:20px; margin:1em 0 0; }
+p{min-height:1px;}
+strong{font-weight:bold;}
+  hr{background: black;border: 0;height: 3px;margin: 20px 0 20px 0 auto 8px;width: 700px;}
+
+
+.align-center{text-align: center;}
+.curtains > li {
+    border-bottom: 25px solid #333333;
+}
+
+  .block{
+	  text-align: center;
+  }
+  
+    
+	p{
+		width: 650px;
+		text-align: left, justify;
+	}
+
+.image-caption{
+	font-size:.91667em;
+	line-height:1.5em;
+	margin:0.1em 5px .5em;
+	text-align:left;
+}
+  
+/* curtain 1 */
+
+#curtain-1{
+    background:url(img/jan22.jpg) 50% 0 no-repeat;
+    background-size:cover;
+}
+
+#curtain-22{
+    background:url(img/TK.jpg) 50% 0 no-repeat;
+    background-size:cover;
+}
+#curtain-21{
+    background:url(img/lisa.jpg) 50% 0 no-repeat;
+    background-size:cover;
+}
+#curtain-20{
+    background:url(img/liam.jpg) 50% 0 no-repeat;
+    background-size:cover;
+}
+
+     header{
+        color:#FFF;
+        position:relative;
+        top:30%;
+        left:50%;
+        margin:0 0 0 -350px;
+        width:700px;
+        text-align:left;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+        line-height:1.1;
+    }
+    h1{
+        text-transform:capitalize;
+        font-size:100px;
+    }
+
+
+#article1{
+	background:url(img/farmer.png);
+}
+
+#article2{
+	background:url(img/farmer.png);
+	display: block;
+}
+
+	#article2 .block{
+		width: 650;
+	}
+      .photos-inner{
+           clear: both;
+           margin: 0 auto;
+           overflow: auto;
+           width: 330px;
+           height: 300px;
+           text-align: left;
+           font-size:.81667em;
+           float: left;
+        }
+        
+      .photos-inner inherit{
+	      margin-left: auto;
+      } 
+        
+      .photos-inner img{
+       margin: 15px 15px 0 0; 
+       border: 5px solid rgba(214,214,204,1);
+       width: 300px;
+       height: 200px;
+        }
+        
+      .photos-inner p{
+       margin-left: 1%;
+       width: 300px;
+       margin: 0 0 15px 0; 
+       text-align: left;
+        }
+
+#article3{
+	background:url(img/farmer.png);
+}
+#article4{
+	background:url(img/farmer.png);
+}
+#article5{
+	background:url(img/farmer.png);
+}
+#article6{
+	background:url(img/farmer.png);
+}
+#article7{
+	background:url(img/farmer.png);
+}
+
+
+
+	.team-thoughts-pec{
+		width: 650px;
+		font-style: 'Junge', sans-serif;
+	}
+	
+	.team-bgp-thoughts{
+		font-size: 11px;
+		text-align: left;
+	}
+	
+	.team-pda-thoughts{
+		font-size: 11px;
+		text-align: left; 
+	}
+	
+	.team-tnl-thoughts{
+		font-size: 11px;
+		text-align: left;
+	}
+
+#article8{
+	background:url(img/farmer.png);
+}
